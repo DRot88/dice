@@ -1,12 +1,13 @@
 import React from 'react';
-import Dice from './Dice'
-import logo from './logo.svg';
+import Die from './Die'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Dice />
+      <Die face="one" />
+      <Die face="six" />
+      <Die face="five" />
     </div>
   );
 }
